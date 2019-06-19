@@ -1,0 +1,290 @@
+/*
+* @Author: Lenovo
+* @Date:   2019-06-16 11:10:43
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2019-06-16 17:16:17
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input{
+    outline: none;
+}
+.nav{
+	border-bottom: 5px solid #fff;
+	width: 100%;
+	height: 180px;
+	/* background-color: blue; */
+}
+.nav:hover{
+	border-color:#3aa747;
+}
+.nav-war{
+	width: 1200px;
+	height: 180px;
+	margin: 0 auto;
+	/* background-color: yellow; */
+}
+.first{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+
+}
+.first ul li>a{
+	margin-right: 20px;
+	color: #5d5a5c;
+}
+.first p>a{
+	color: #5d5a5c;
+	margin-right: 15px;
+	margin-left: 5px;
+	font-size: 0.9em;
+}
+.first span{
+	margin-top: 6px;
+	float: right;
+}
+.first select{
+	border-color: #fff;
+}
+.first img{
+	margin-left: 10px;
+	margin-top: 7px;
+}
+.second{
+	width: 1200px;
+	height: 61px;
+	margin: 0 auto;
+}
+.second img:first-child{
+	float: left;
+	margin: 10px 180px 0px 0px;
+}
+.second input{
+	margin:30px 0px 0px 0px ;
+	height: 41px;
+	width: 500px;
+	float: left;
+	border: 1px solid#2b2b35;
+	text-align: center;
+	color: #dddddd;
+}
+.second form>img{
+	/* display: block; */
+	border: 1px solid #2b2b35;
+	float: left;
+	padding: 2px 5px 2px 5px;
+	margin: 30px 180px 0px 0px;
+}
+.second img:last-child{
+	margin-top: 30px;
+}
+.last{
+	background-color: red;
+}
+.last p{
+	float: left;
+	margin-top: 30px;
+}
+.last ul>li{
+	padding-bottom:1px; 
+	float: left;
+	margin: 30px 0px 0px 46px;
+	width: 70px;
+	height: 35px;
+	text-align: center;
+}
+.last ul li>a{
+	color: #000;
+}
+.last ul li:hover{
+	border-bottom: 5px solid #3aa747;
+}
+.last ul a:hover{
+	color: #3aa747;
+}
+/* 体 */
+.body{
+	height: 45px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.body a{
+	float: left;
+	color: #000;
+
+}
+.body a+a{
+	font-size: 0.8em;
+	color: #5c5a5a;
+	margin-top:7px;
+	float: left;
+}
+.body span>a{
+	float: right;
+	color: #5c5a5a;
+	font-size: 0.8em;
+	margin-top:7px;
+}
+.body a:first-child{
+	margin: 5px 10px 0px 25px;
+}
+/* table */
+.table{
+	width: 100%;	
+	height: 35px;	
+}
+.table ul{
+	width: 1200px;
+	height: 35px;
+	margin: 0 auto;
+	border: 1px solid #cccccc
+}
+.table ul li{
+	float: left;
+	width: 70px;
+	height: 35px;
+	text-align: center;
+	line-height:35px;
+	margin-right: 40px;
+}
+.table ul li:first-child{
+	background-color: #e5e5e5;
+}
+.table ul li>a{
+	color: #737373;
+	margin-left: 5px;
+}
+.table ul li>a:hover{
+	color: #3aa747;
+}
+.img{
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 300px;
+}
+.img li{
+	float: left;
+	width: 274px;
+	height: 293px;
+	border: 1px solid #7f7f7f;
+	margin: 0px 0px 20px 20px;
+	position: relative;
+}
+.img img{
+	text-align: center;
+	display: inline-block;
+	margin-top: 20px;
+}
+.back{
+	width: 275px;
+	height: 60px;
+	background-color: #4c4c4c;
+	opacity: 0.9;
+	position: absolute;
+	top: 235px;
+	text-align: center;
+	color: #fff;
+	line-height: 25px;
+}
+
+.background{
+	display:block;
+	height: 293px;
+	width: 274px;
+	background-color: #4c4c4c;
+	opacity: 0.8;
+	color: #fff;
+	line-height: 20px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.background span{
+	text-align: center;
+	position: absolute;
+	top: 110px;
+	left: 70px;
+	display: block;
+}
+.background p{
+	line-height: 30px;
+	display: block;
+}
+.good{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: f5f5f5;
+	height: 120px;
+}
+.good ul li{
+	float: left;
+	height: 70px;
+	width:300px;
+}
+.good p{
+	color: #7b7b7b;
+	font-size: 0.8em;
+}
+.good img{
+	float: left;
+	margin-right: 20px;
+}
+.bottom-war{
+	width: 100%px;
+	height: 150px;
+	background-color: #323232
+}
+.bottom{
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+}
+.bottom ul{
+	margin-left: 200px;
+	height: 60px;
+}
+.bottom ul li{
+	margin: 20px 5px 10px 5px;
+	float: left;
+}
+.bottom ul li >a{
+	color: #fff;
+}
+.bottom p{
+	text-align: center;
+	color:#FFF;
+}
+.right ul{
+	width: 50px;
+	height: 450px;
+	float: right;
+	background-color: #181b17;
+
+}
+.right ul li{
+	height: 85px;
+	width: 60px;
+	border-top: 2px solid #656866;
+}
+.right ul li>img{
+	display: clock;
+	margin:20px 10px;
+}
+.img2 img{
+	width:100%;
+}
+.ore{
+	width: 100%;	
+}
+
